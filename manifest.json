@@ -1,0 +1,15 @@
+{
+  "name": "SCEP MUSEUM",
+  "version": "1.0",
+  "description": "Get the awesome Scep's artwork on new tab",
+  "manifest_version": 2,
+  // Execute html/js file on a new tab
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["dist/bundle.js"],
+    "run_at": "document_start"
+  }]
+}

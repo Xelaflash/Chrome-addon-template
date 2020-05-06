@@ -1,10 +1,10 @@
 {
-  "name": "scep_museum",
+  "name": "xxx",
   "version": "1",
-  "description": "Get the awesome Scep's artwork on new tab",
+  "description": "xxx",
   "main": "index.js",
-  "repository": "https://github.com/Xelaflash/scep_museum",
-  "author": "Xela & Floppy",
+  "repository": "xxxx",
+  "author": "Xela",
   "license": "UNLICENSED",
   "private": false,
   "devDependencies": {

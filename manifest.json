@@ -1,15 +1,16 @@
 {
-  "name": "SCEP MUSEUM",
+  "name": "To change",
   "version": "1.0",
-  "description": "Get the awesome Scep's artwork on new tab",
-  "manifest_version": 2,
-  // Execute html/js file on a new tab
+  "description": "template for add-on (to change)",
+  "manifest_version": 1,
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
-  "content_scripts": [{
-    "matches": ["http://*/*", "https://*/*"],
-    "js": ["dist/bundle.js"],
-    "run_at": "document_start"
-  }]
+  "content_scripts": [
+    {
+      "matches": ["http://*/*", "https://*/*"],
+      "js": ["dist/bundle.js"],
+      "run_at": "document_start"
+    }
+  ]
 }

@@ -1,6 +1,4 @@
-# SCEP MUSEUM
+# Chrome Add-on Template
 
-Museum of Scep's artwork
-
-Chrome extension in ES6 with yarn as package manager
+Chrome extension skeleton in ES6 with webpack & yarn.
 (Eslint, prettier for the coding style)
